@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#000;
+}
+.circle{
+	width:230px;
+	height:230px;
+	border-radius:100%;
+	background-color:#00F;
+	position:absolute;
+	top:20px;
+	left:530px;
+}
+.e1{
+	width:55px;
+	height:60px;
+	border-radius:100%;
+	border:#000 thin solid;
+	background-color:#FFF;
+	position:absolute;
+	top:30px;
+	left:590px;
+	z-index:2;
+
+}
+.e2{
+	width:55px;
+	height:60px;
+	border-radius:100%;
+	border:#000 thin solid;
+	background-color:#FFF;
+	position:absolute;
+	top:30px;
+	left:645px;
+	z-index:2;
+}
+.ee1{
+	width:20px;
+	height:25px;
+	border-radius:100px;
+	background-color:#000;
+	position:absolute;
+	top:60px;
+	left:620px;
+	z-index:2;
+}
+.ee2{
+	width:20px;
+	height:25px;
+	border-radius:100px;
+	background-color:#000;
+	position:absolute;
+	top:60px;
+	left:653px;
+	z-index:2;
+}
+.m{
+	width:200px;
+	height:200px;
+	border-radius:100px;
+	background-color:#FFF;
+	position:absolute;
+	top:60px;
+	left:545px;
+	z-index:1;
+}
+.nose{
+	width:35px;
+	height:35px;
+	border-radius:100px;
+	background-color:#F00;
+	border:#000 thin solid;
+	position:absolute;
+	top:80px;
+	left:628px;
+	z-index:2;
+}
+.nn{
+	transform:rotate(90deg);
+	position:absolute;
+	top:128px;
+	left:628px;
+	z-index:2;
+}
+.l{
+	transform:rotate(180deg);
+	z-index:2;
+	position:absolute;
+	top:150px;
+	left:345px;
+}
+.p{
+	width:150px;
+	height:10px;
+	background-color:#F00;
+	position:absolute;
+	top:230px;
+	left:570px;
+	z-index:3;
+}
+.g{
+	width:35px;
+	height:35px;
+	border-radius:100px;
+	background-color:#FF0;
+	border:#000 thin solid;
+	position:absolute;
+	top:230px;
+	left:628px;
+	z-index:3;
+}
+.b{
+	width:180px;
+	height:180px;
+	border-radius:40px;
+	background-color:#00F;
+	position:absolute;
+	top:240px;
+	left:550px;
+	z-index:2;
+}
+.h1{
+	width:50px;
+	height:140px;
+	border-radius:40px;
+	background-color:#00F;
+	position:absolute;
+	top:180px;
+	left:510px;
+	transform:rotate(135deg);
+	animation-name:wave1;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+}
+.h2{
+	width:50px;
+	height:110px;
+	border-radius:40px;
+	background-color:#00F;
+	position:absolute;
+	top:235px;
+	left:710px;
+	transform:rotate(-45deg);
+	z-index:2;
+}
+.l1{
+	width:80px;
+	height:70px;
+	border-radius:10px;
+	background-color:#00F;
+	position:absolute;
+	top:380px;
+	left:550px;
+	z-index:2;
+}
+.l2{
+	width:80px;
+	height:70px;
+	border-radius:10px;
+	background-color:#00F;
+	position:absolute;
+	top:380px;
+	left:650px;
+	z-index:2;
+}
+.hc1{
+	width:60px;
+	height:60px;
+	border-radius:100px;
+	background-color:#FFF;
+	border:#000 thin solid;
+	position:absolute;
+	top:175px;
+	left:460px;
+	animation-name:wave2;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+}
+.hc2{
+	width:60px;
+	height:60px;
+	border-radius:100px;
+	background-color:#FFF;
+	border:#000 thin solid;
+	position:absolute;
+	top:300px;
+	left:750px;
+	z-index:1;
+}
+
+.lc1{
+	width:90px;
+	height:60px;
+	border-radius:100px;
+	background-color:#FFF;
+	border:#000 thin solid;
+	position:absolute;
+	top:425px;
+	left:545px;
+}
+.lc2{
+	width:90px;
+	height:60px;
+	border-radius:100px;
+	background-color:#FFF;
+	border:#000 thin solid;
+	position:absolute;
+	top:425px;
+	left:645px;
+	z-index:1;
+}
+.po1{
+	width:140px;
+	height:120px;
+	border-radius:100px;
+	background-color:#FFF;
+	border:#000 thin solid;
+	position:absolute;
+	top:265px;
+	left:575px;
+	z-index:2;
+}
+.poc2{
+	transform:rotate(180deg);
+	z-index:2;
+	position:absolute;
+	top:320px;
+	left:348px;
+}
+.m1{
+	position:absolute;
+	top:120px;
+	left:590px;
+	z-index:2;
+}
+.m2{
+	position:absolute;
+	top:120px;
+	left:660px;
+	z-index:2;
+}
+.m3{
+	position:absolute;
+	top:110px;
+	left:590px;
+	z-index:2;
+	transform:rotate(10deg);
+}
+.m4{
+	position:absolute;
+	top:110px;
+	left:660px;
+	z-index:2;
+	transform:rotate(170deg);
+}
+.m5{
+	position:absolute;
+	top:130px;
+	left:590px;
+	z-index:2;
+	transform:rotate(-10deg);
+}
+.m6{
+	position:absolute;
+	top:130px;
+	left:660px;
+	z-index:2;
+	transform:rotate(-170deg);
+}
+
+.doremon{
+	animation-name:wave3;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+}
+.hello{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:72px;
+	color:#FFF;
+	font-weight:1000;
+	animation-name:wave4;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+}
+@keyframes wave1{
+	from{
+		transform:rotate(135deg);
+	}
+	to{
+		transform:rotate(120deg);}
+	}
+@keyframes wave2{
+	100%{
+	transform:translate(-15px,15px);}
+}
+@keyframes wave3{
+	100%{
+	transform:translateX(500px);}
+	
+}
+@keyframes wave4{
+	100%{
+	transform:translate(600px,200px);}
+	
+}
